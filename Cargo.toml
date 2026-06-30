@@ -1,0 +1,24 @@
+[package]
+edition = "2024"
+rust-version = "1.96.0"
+name = "fasthttp"
+version = "0.1.0"
+authors = ["Laurent VERDOÏA <verdoialaurent@gmail.com>"]
+description = "A **fast** HTTP package for Rust."
+readme = "README.md"
+keywords = [
+    "http",
+    "no_std",
+]
+categories = [
+    "network-programming",
+    "web-programming",
+]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/lvjp/fasthttp"
+
+[lib]
+name = "fasthttp"
+path = "src/lib.rs"
+
+[dependencies]
